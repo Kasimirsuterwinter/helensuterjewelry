@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="grid-area">
+  <div class="posts-grid">
+    <div class="post-title">{{ page.title }}</div>
+    <div class="post-content">
+      <p> {{ page.date | date: '%B %d %Y' }}</p>
+
+      {{ content }}
+
+    </div>
+  </div>
+</div>

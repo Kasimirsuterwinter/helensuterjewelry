@@ -1,0 +1,25 @@
+---
+title: Blog
+layout: default
+description: A library of my thoughts, ideas and interpretations of the world.
+navigation_weight: 3
+---
+
+<div class="grid-area">
+  <div class="blog-grid">
+    <div class="blog-layout">
+      <ul>
+        {% for post in site.posts %}
+          <li class="posts-list">
+            <a href="{{ post.url }}"><h1 class="post-title-offset" >{{ post.title }}</h1></a>
+              <p> {{ post.date | date: '%B %d %Y' }}</p>
+              {{ post.excerpt }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+<!--Take this out of comment for categories to display:    {% include blog-categories.html %} -->
+  </div>
+</div>
+
+<!-- https://oak.is/thinking/ inspiration :) -->
