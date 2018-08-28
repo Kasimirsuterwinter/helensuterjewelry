@@ -1,0 +1,13 @@
+<a href="/" ><img class="logo" src="assets/media/helensuter-logo.png" alt=""></a>
+<nav class="">
+  <ul>
+    {% assign navigation_pages = site.html_pages | sort: 'menu' %}
+    {% for page in navigation_pages %}
+      {% if page.menu %}
+      <li class="menu-list">
+        <a class="menu-dark" href="{{page.url}}"><p>{{page.title}}</p></a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

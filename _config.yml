@@ -1,15 +1,15 @@
 ---
-title: Kasimir Suter Winter
-email: kasimirsw@gmail.com
+title: Helen Suter Jewelry
+email: hello@helensuter.studio
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal piece of the web. Come join my explorations into design, architecture, coding and life.
+  Online Jewelry Shop for Helen Suter's Work
 timezone: UTC
 collections:
   posts:
     title: Posts
     output: true
-  work:
-    title: Work
+  products:
+    title: Products
     output: true
 
 plugins:
