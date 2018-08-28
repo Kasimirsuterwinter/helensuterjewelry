@@ -8,12 +8,12 @@ menu: 1 main
 
 <div class="home-products-layout">
   <ul class="products-grid">
-    {% for product in site.products %}
+    {% for products in site.products %}
       <li class="products-list">
-        <img class="product-image-span" src="assets/media/{{ product.image }}" >
-        <a href="{{ product.url }}"><p>{{ product.title }}</p></a>
-        <p> Prices: {{ product.price }} </p>
-        <p> {{ product.excerpt }} </p>
+        <img class="product-image-span" src="assets/media/{{ products.image }}" >
+        <a href="{{ products.url }}"><p>{{ products.title }}</p></a>
+        <p> Prices: {{ products.price }} </p>
+        <p> {{ products.excerpt }} </p>
       </li>
     {% endfor %}
   </ul>
