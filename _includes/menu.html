@@ -1,4 +1,4 @@
-<a href="/" ><img class="logo" src="assets/media/helensuter-logo.png" alt=""></a>
+<a href="/" ><img class="logo" src="/assets/media/helensuter-logo.png" alt=""></a>
 <nav class="">
   <ul>
     {% assign navigation_pages = site.html_pages | sort: 'menu' %}
@@ -9,5 +9,8 @@
       </li>
       {% endif %}
     {% endfor %}
+    <li class="menu-list">
+      <a href="#" class="snipcart-checkout"><p>Cart</p></a>
+    </li>
   </ul>
 </nav>

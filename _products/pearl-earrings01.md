@@ -2,12 +2,15 @@
 layout: products
 title: Pearl Earrings 01
 image: DSC_9342_1.jpg
-price: 12.99
-categories:   
+price: 30
+description: Small cute earrings with little pealrs and golden metal loops.
+id: 2
+type:
   - Pearl
   - Earrings
 ---
 
+{% include buy-button.html %}
 
 “All idiots,” Gustave Flaubert once said about architects - “they always forget to put in the stairs.” While another man, Friedrich Mielke, noted stair researcher born in 1921, established an Institute for Stair Research in Konstein,
 

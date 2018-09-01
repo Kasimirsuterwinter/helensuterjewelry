@@ -6,15 +6,7 @@ menu: 1 main
 ---
 
 
-<div class="home-products-layout">
-  <ul class="products-grid">
-    {% for products in site.products %}
-      <li class="products-list">
-        <img class="product-image-span" src="assets/media/{{ products.image }}" >
-        <a href="{{ products.url }}"><p>{{ products.title }}</p></a>
-        <p> Prices: {{ products.price }} </p>
-        <p> {{ products.excerpt }} </p>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+
+{% for product in site.products %}
+  {% include product.html %}
+{% endfor %}
