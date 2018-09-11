@@ -6,7 +6,8 @@
           <a href="{{ products.url }}"><img class="product-image-span" src="assets/media/{{ products.image }}" ></a>
         <a href="{{ products.url }}"><p>{{ products.title }}</p></a>
         <p> Prices: {{ products.price }} </p>
-        <p> {{ products.excerpt }} </p>
+        <p> {{ products.description }} </p>
+        {% include buy-button.html %}
       </li>
     {% endfor %}
   </ul>

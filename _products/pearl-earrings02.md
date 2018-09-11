@@ -10,7 +10,6 @@ type:
   - Earrings
 ---
 
-{% include buy-button.html %}
 
 “All idiots,” Gustave Flaubert once said about architects - “they always forget to put in the stairs.” While another
 

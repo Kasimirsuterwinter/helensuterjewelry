@@ -10,8 +10,6 @@ type:
   - Earrings
 ---
 
-{% include buy-button.html %}
-
 “All idiots,” Gustave Flaubert once said about architects - “they always forget to put in the stairs.” While another man, Friedrich Mielke, noted stair researcher born in 1921, established an Institute for Stair Research in Konstein,
 
  Bavaria. He welcomes us to reformulate Flaubert’s tirade: “Idiots, all these architectural historians, they always forget the stairs.” I will focus on the topic of stairs in this essay following the book about his research.

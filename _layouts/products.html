@@ -5,6 +5,7 @@ layout: default
   <div class="posts-grid">
     <div class="post-title">{{ page.title }}</div>
     <div class="post-content">
+      {% include buy-button.html %}
       <p> {{ page.date | date: '%B %d %Y' }}</p>
 
       {{ content }}
