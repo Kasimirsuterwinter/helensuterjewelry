@@ -1,13 +1,13 @@
 ---
 layout: products
-title: Pearl Earrings 03
-image: DSC_9342_1.jpg
-price: 30
-description: Small cute earrings with little pealrs and golden metal loops.
-id: 2
+title: White Marble Necklace
+image: IMG_6955.jpg
+price: 60
+description: Slender white marble beads, spaced out with dark gray metal tubes.
+id: 7
 type:   
-  - Pearl
-  - Earrings
+  - Necklace
+  - White
 ---
 
 

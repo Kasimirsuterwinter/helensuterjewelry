@@ -1,13 +1,14 @@
 ---
 layout: products
-title: Pearl Earrings
-image: DSC_9342_1.jpg
-price: 30
-description: Small cute earrings with little pealrs and golden metal loops.
+title: Blue Quartz Necklace
+image: IMG_6940.jpg
+price: 70
+description: Choker necklace with skinny long blue quartz and dark gray spacer beads.
 id: 2
 type:
-  - Earrings
-
+  - Choker
+  - Necklace
+  - Blue
 ---
 
 

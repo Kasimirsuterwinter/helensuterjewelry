@@ -1,13 +1,13 @@
 ---
 layout: products
-title: Pearl Earrings 05
-image: DSC_9342_1.jpg
-price: 30
-description: Small cute earrings with little pealrs and golden metal loops.
-id: 2
+title: Black Wood Necklace
+image: IMG_6963.jpg
+price: 90
+description: Naturally shaped black wooden beads separated by dark gray metal tubes.
+id: 10
 type:    
-  - Pearl
-  - Earrings
+  - Necklace
+  - Black
 ---
 
 

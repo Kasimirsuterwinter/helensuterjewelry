@@ -1,13 +1,14 @@
 ---
 layout: products
-title: Pearl Earrings 02
-image: DSC_9342_1.jpg
-price: 30
-description: Small cute earrings with little pealrs and golden metal loops.
+title: Dark Blue Crystal Necklace
+image: IMG_6959.jpg
+price: 70
+description: Dark Blue crystal necklace with dark gray metal spacers. 
 id: 3
 type:
-  - Pearl
-  - Earrings
+  - Necklace
+  - Crystal
+  - Blue
 ---
 
 

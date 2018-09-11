@@ -1,11 +1,13 @@
 ---
 layout: products
-title: Pearl Earrings0
-image: DSC_9342_1.jpg
-price: 12.99
+title: Red Coral Necklace
+image: IMG_6943.jpg
+price: 60
+description: Red coral beaded necklace with dark grey spacer beads.
+id: 2
 categories:   
-  - Pearl
-  - Earrings
+  - Necklace
+  - Red
 ---
 
 

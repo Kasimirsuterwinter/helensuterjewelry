@@ -1,13 +1,14 @@
 ---
 layout: products
-title: Pearl Earrings 04
-image: DSC_9342_1.jpg
-price: 30
-description: Small cute earrings with little pealrs and golden metal loops.
-id: 2
+title: White Quartz Bracelet
+image: IMG_6956.jpg
+price: 45
+description: A bracelet of white quartz cubes separated by silver tubes.
+id: 9
 type:   
-  - Pearl
-  - Earrings
+  - Bracelet
+  - White
+  - Silver
 ---
 
 

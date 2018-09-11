@@ -1,13 +1,13 @@
 ---
 layout: products
-title: Pearl Earrings 06
-image: DSC_9342_1.jpg
-price: 30
-description: Small cute earrings with little pealrs and golden metal loops.
+title: Rainbow Crystal Necklace
+image: IMG_6944.jpg
+price: 80
+description: Glistening rainbow crystals with dark gray metal beads.
 id: 2
-type:  
-  - Pearl
-  - Earrings
+type:
+  - Necklace
+  - Rainbow
 ---
 
 “All idiots,” Gustave Flaubert once said about architects - “they always forget to put in the stairs.” While another man, Friedrich Mielke, noted stair researcher born in 1921, established an Institute for Stair Research in Konstein,

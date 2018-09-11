@@ -110,7 +110,7 @@ a.active {
 /* styling of Site wide objects */
 
 button {
-background-color: white;
+background-color: gold;
     border: none;
     color: black;
     padding: 13px 29px;
@@ -224,8 +224,8 @@ ul.products-grid {
 }
 
 .product-image-span {
-width: 20vw;
-image-orientation: 270deg;
+width: 100%;
+margin-bottom: 25px;
 }
 
 
