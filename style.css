@@ -87,6 +87,7 @@ p {
 
 a {
   text-decoration: none;
+  transition: .2s;
 }
 
 a:link {
@@ -98,20 +99,20 @@ a:visited {
 }
 
 a:hover {
-  color: #D5AB8F;
+  color: rgba(255, 200, 6, 1);
   cursor: pointer;
 }
 
 a.active {
-  color: #F46032
 }
 
 
 /* styling of Site wide objects */
 
 button {
-background-color: gold;
-    border: none;
+    background-color: white;
+    border-width: thin;
+    border-color: black;
     color: black;
     padding: 13px 29px;
     text-align: center;
@@ -120,6 +121,12 @@ background-color: gold;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: .3s;
+
+}
+
+button:hover {
+    background-color: rgba(255, 200, 6, 0.74);
 }
 
 
@@ -178,9 +185,9 @@ footer {
 }
 
 }
-.logo img {
-width: 10vw;
-height: auto;
+.logo svg {
+width: auto;
+height: ;
 }
 
 
@@ -195,8 +202,13 @@ li.menu-list {
 
 .logo {
   position: realtive;
-  width: 20vw;
-  margin-top: 20px; }
+  transition: .2s;
+}
+
+.logo:hover {
+  opacity: .5;
+}
+
 
 
 
