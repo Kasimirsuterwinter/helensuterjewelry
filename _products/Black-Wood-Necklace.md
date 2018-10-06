@@ -5,9 +5,13 @@ image: IMG_6963.jpg
 price: 90
 description: Naturally shaped black wooden beads separated by dark gray metal tubes.
 id: 10
-type:    
+category:    
   - Necklace
   - Black
+collection:
+  - summer relax
+  - elegant winter
+
 ---
 
 
