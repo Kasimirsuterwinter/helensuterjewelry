@@ -2,14 +2,22 @@
 layout: default
 ---
 <div class="grid-area">
-  <div class="posts-grid">
-    <div class="post-title">{{ page.title }}</div>
-    <div class="post-content">
+  <div class="products-grid">
+    <div class="product-description">
+      <h2 class="products-title">{{ page.title }}</h2>
       {% include buy-button.html %}
       <p> {{ page.date | date: '%B %d %Y' }}</p>
+      <p> Price: ${{ page.price }}.00 </p>
+      <p> {{ page.description }} </p>
 
       {{ content }}
 
     </div>
+    <div class="product-images">
+      <img class="product-image-span" src="/assets/media/{{ page.image }}">
+    </div>
   </div>
+
+  {% include shop.html %}
+
 </div>
