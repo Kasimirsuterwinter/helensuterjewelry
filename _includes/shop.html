@@ -5,9 +5,9 @@
       <li class="products-list">
           <a href="{{ products.url }}"><img class="product-image-span" src="/assets/media/{{ products.image }}" ></a>
         <a href="{{ products.url }}"><h3>{{ products.title }}</h3></a>
+        {% include buy-button.html %}
         <p> Prices: ${{ products.price }}.00 </p>
         <p> {{ products.description }} </p>
-        {% include buy-button.html %}
       </li>
     {% endfor %}
   </ul>
