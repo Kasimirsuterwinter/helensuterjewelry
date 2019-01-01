@@ -137,7 +137,6 @@ button:hover {
       grid-template-columns: repeat(10, 1fr);
       grid-template-rows: 150px auto auto auto;
       grid-gap: 1vw;
-      margin: 30px;
     }
 
 .grid-area {
@@ -286,12 +285,14 @@ ul {
 
 /* layout for product pages */
 
-.products-grid {
-  display: grid;
-  grid-template-columns: .5fr 3fr .5fr 2fr .5fr;
-  grid-template-rows: 90vh ;
-  grid-gap: 25px;
-}
+  .products-grid {
+    display: grid;
+    grid-template-columns: .5fr 3fr .5fr 2fr .5fr;
+    grid-template-rows: auto ;
+    grid-gap: 25px;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+  }
 
 .product-images  {
   grid-row: 1 / 2;
